@@ -1,0 +1,187 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "SFUIDisplay";
+  src: url("../fonts/SFUIDisplay-Bold.eot");
+  src: local("☺"), url("../fonts/SFUIDisplay-Bold.woff") format("woff"), url("../fonts/SFUIDisplay-Bold.ttf") format("truetype"), url("../fonts/SFUIDisplay-Bold.svg") format("svg");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SFUIDisplay";
+  src: url("../fonts/SFUIDisplay-Regular.eot");
+  src: local("☺"), url("../fonts/SFUIDisplay-Regular.woff") format("woff"), url("../fonts/SFUIDisplay-Regular.ttf") format("truetype"), url("../fonts/SFUIDisplay-Regular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  margin: 0 auto;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header_body {
+  width: 100%;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.innerBlock {
+  width: 79%;
+  min-height: 400px;
+  background-color: #b42626;
+  display: flex;
+  flex-direction: column;
+}
+
+.top_logo {
+  width: 100%;
+  height: 150px;
+  background-color: #f83b22;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.top_logo__content {
+  background-color: #01187e;
+  width: 15%;
+  min-height: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.top_logo_block {
+  width: 26%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.top_link_block {
+  width: 63%;
+  display: flex;
+}
+
+.top_logo__link {
+  font-family: "SFUIDisplay";
+  font-weight: bold;
+  font-style: normal;
+  color: #fff;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.pagination_block {
+  width: 21.2%;
+  min-height: 54px;
+  background-color: #e100ff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.pagination_liked {
+  background-color: #002fff;
+  width: 126px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.liked_link {
+  text-decoration: none;
+  font-family: "SFUIDisplay";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #fff;
+}
+
+.pagination_history {
+  background-color: #0228ff;
+  width: 170px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.history_link {
+  text-decoration: none;
+  font-family: "SFUIDisplay";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #fff;
+  margin-right: 3px;
+}
+
+nav {
+  height: 250px;
+  background-color: #5ff132;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav_text_block {
+  display: flex;
+  height: 19%;
+  width: 82%;
+  align-items: center;
+  justify-content: center;
+}
+.nav_text_block a {
+  font-family: "SFUIDisplay";
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 21px;
+  color: #fff;
+}
+
+.main_search_block {
+  width: 100%;
+  height: 50%;
+  background-color: #00e1ff;
+  display: flex;
+  justify-content: center;
+}
+
+.input_search {
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom: 0.5px solid #fff;
+  font-family: "SFUIDisplay";
+  font-weight: normal;
+  font-style: normal;
+  width: 83%;
+  height: 83%;
+  background: none;
+  font-family: "SFUIDisplay";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 72px;
+  line-height: 85, 92px;
+  text-align: center;
+  color: #fff;
+}
+
+.input_search::-webkit-input-placeholder {
+  color: #fff;
+}
+
+.input_search::-moz-placeholder {
+  color: #fff;
+}
+
+/*# sourceMappingURL=style.css.map */
