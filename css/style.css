@@ -33,7 +33,7 @@ a {
 .innerBlock {
   width: 79%;
   min-height: 400px;
-  background-color: #b42626;
+  background-color: #000;
   display: flex;
   flex-direction: column;
 }
@@ -41,7 +41,7 @@ a {
 .top_logo {
   width: 100%;
   height: 150px;
-  background-color: #f83b22;
+  background-color: #000;
   display: flex;
   flex-direction: row;
   align-items: flex-end;
@@ -49,7 +49,7 @@ a {
 }
 
 .top_logo__content {
-  background-color: #01187e;
+  background-color: #000;
   width: 15%;
   min-height: 60px;
   display: flex;
@@ -81,7 +81,7 @@ a {
 .pagination_block {
   width: 21.2%;
   min-height: 54px;
-  background-color: #e100ff;
+  background-color: #000;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -89,7 +89,7 @@ a {
 }
 
 .pagination_liked {
-  background-color: #002fff;
+  background-color: #000;
   width: 126px;
   display: flex;
   justify-content: space-between;
@@ -106,7 +106,7 @@ a {
 }
 
 .pagination_history {
-  background-color: #0228ff;
+  background-color: #000;
   width: 170px;
   display: flex;
   justify-content: space-between;
@@ -125,7 +125,7 @@ a {
 
 nav {
   height: 250px;
-  background-color: #5ff132;
+  background-color: #000;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -166,9 +166,6 @@ nav {
   width: 83%;
   height: 83%;
   background: none;
-  font-family: "SFUIDisplay";
-  font-weight: normal;
-  font-style: normal;
   font-size: 72px;
   line-height: 85, 92px;
   text-align: center;
@@ -197,22 +194,22 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #d81919;
+  background-color: #fff;
 }
 
 .gallery_body_inner {
   width: 79%;
-  min-height: 1000px;
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  background-color: #4321db;
+  flex-direction: column;
+  background-color: #fff;
 }
 
 .type_selection__inner {
   width: 100%;
   height: 172px;
-  background-color: #cc00e7;
+  background-color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -223,15 +220,94 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #07c016;
 }
 
 .type_selection_width {
   width: 23px;
   height: 23px;
-  background-image: url();
+  background-image: url(../img/typewidth.svg);
   padding: 0;
   border: none;
+}
+
+.type_selection_square {
+  width: 23px;
+  height: 23px;
+  background-image: url(../img/typeq.svg);
+  padding: 0;
+  border: none;
+}
+
+.main_gallery_block {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  min-height: auto;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.main_gallery__row {
+  display: flex;
+  min-height: auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+.image-container .hover-text {
+  opacity: 0;
+  transition: opacity;
+}
+
+.hover-text a {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+}
+.hover-text a span {
+  display: flex;
+  color: white;
+}
+
+.image-container:hover .hover-text {
+  opacity: 1;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+}
+
+.imagetext:hover {
+  filter: blur(4px);
+}
+
+.profile_name {
+  font-family: "SFUIDisplay";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.instagramm_link {
+  font-family: "SFUIDisplay";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.secondtest {
+  display: none;
 }
 
 /*# sourceMappingURL=style.css.map */

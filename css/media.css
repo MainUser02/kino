@@ -1,0 +1,46 @@
+@media screen and (max-width: 376px) {
+    .top_logo__link{
+        display: none;
+    }
+    .liked_link{
+        display: none;
+    }
+    .history_link{
+        display: none;
+    }
+    .pagination_block{
+        width: 30%;
+    }
+    .pagination_liked{
+        justify-content: flex-end;
+    }
+    .pagination_history{
+        justify-content: flex-end;
+    }
+    nav{
+        min-height: 250px;
+    }
+    .input_search{
+        font-size: 36px;
+        line-height: 43px;
+    }
+    .nav_text_block {
+        width: 100%;
+    }
+    .nav_text_block a{
+        white-space: nowrap;
+        margin-right: 15px;
+    }
+    .type_selection_block{
+        width: 25%;
+    }
+    .main_gallery_block {
+        flex-direction: column;
+    }
+    .imagetext{
+        display: none;
+    }
+    .secondtest{
+        display: block;
+    }
+}
