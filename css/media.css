@@ -37,10 +37,78 @@
     .main_gallery_block {
         flex-direction: column;
     }
-    .imagetext{
-        display: none;
+    .firstRow_image_first{
+        width: 330.82px;
+        min-height: 180.83px;
+        background-image: url(../img/media-image/first_girl.png);
     }
-    .secondtest{
-        display: block;
+    .firstRow_image_second{
+        width: 330.92px;
+        min-height: 497.28px;
+        background-image: url(../img/media-image/mercedes.png);
+    }
+    .firstRow_image_third{
+        width: 330.92px;
+        min-height: 180.83px;
+        background-image: url(../img/media-image/elephants.png);
+    }
+    .firstRow_image_four{
+        width: 330.92px;
+        min-height: 330.92px;
+        background-image: url(../img/media-image/juke.png);
+    }
+    .firstRow_image_five{
+        width: 330.92px;
+        min-height: 180.83px;
+        background-image: url(../img/media-image/street.png);
+    }
+    .firstRow_image_six{
+        width: 330.92px;
+        min-height: 330.92px;
+        background-image: url(../img/media-image/design.png);
+    }
+    .firstRow_image_seven{
+        width: 331px;
+        min-height: 493px;
+        background-image: url(../img/media-image/second_girl.png);
+    }
+    .secondRow_image_first{
+        width: 330.92px;
+        min-height: 497.28px;
+        background-image: url(../img/media-image/records.png);
+    }
+    .secondRow_image_second{
+        width: 330.92px;
+        min-height: 180.83px; 
+        background-image: url(../img/media-image/merry.png);
+    }
+    .secondRow_image_third{
+        width: 330.92px;
+        min-height: 497.28px;
+        background-image: url(../img/media-image/men.png);
+    }
+    .secondRow_image_four{
+        width: 330.92px;
+        min-height: 180.83px;
+        background-image: url(../img/stol.png);
+    }
+    .secondRow_image_five{
+        width: 330.92px;
+        min-height: 330.92px;
+        background-image: url(../img/media-image/worth.png);
+    }
+    .secondRow_image_six{
+        width: 330.92px;
+        min-height: 180.83px;  
+        background-image: url(../img/media-image/rasta.png);
+    }
+    .secondRow_image_seven{
+        width: 330.92px;
+        min-height: 329.63px;
+        background-image: url(../img/media-image/yellow.png);
+    }
+
+    .thirdRow{
+        display: none;
     }
 }
