@@ -59,6 +59,9 @@
         justify-content: space-between;
         align-items: center;
     }
+    .main_gallery__row div{
+        margin-bottom: 20px;
+    }
     .firstRow_image_first{
         width: 100%;
         min-height: 180.83px;
