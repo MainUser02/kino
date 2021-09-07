@@ -18,7 +18,7 @@
         justify-content: flex-end;
     }
     nav{
-        min-height: 250px;
+        min-height: 26vh;
     }
     .input_search{
         font-size: 36px;
@@ -37,8 +37,14 @@
     .main_gallery_block {
         flex-direction: column;
     }
+    .firstRow div{
+        margin-bottom: 20px;
+    }
+    .secondRow div{
+        margin-bottom: 20px;
+    }
     .firstRow_image_first{
-        width: 330.82px;
+        width: 88vw;
         min-height: 180.83px;
         background-image: url(../img/media-image/first_girl.png);
     }
