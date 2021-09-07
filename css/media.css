@@ -1,3 +1,170 @@
+@media screen and (max-width: 1650px) and (min-width: 1601px) {
+    .pagination_block{
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .top_logo{
+        width: 88%;
+    }
+    .innerBlock{
+        justify-content: center;
+        align-items: center;
+    }
+    .top_logo__content{
+        width: 24%;
+    }
+    .top_logo_block {
+        width: 21%;
+    }
+    .pagination_block{
+        width: 29%;
+    }
+    .thirdRow{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1550px) {
+    .liked_link, .history_link, .top_link_block{
+        display: none;
+    }
+    .pagination_block{
+        justify-content: space-evenly;
+    }
+    .pagination_liked, .pagination_history{
+        width: 25px;
+    }
+    .type_selection_block{
+        width: 8%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .thirdRow{
+        display: none;
+    }
+    .main_gallery_block{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .type_selection_block{
+        width: 12%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .type_selection_block{
+        width: 18%;
+    }
+    .firstRow div, .secondRow div{
+        margin-bottom: 20px;
+    }
+    .firstRow_image_first{
+        width: 100%;
+        min-height: 180.83px;
+        background-image: url(../img/media-image/first_girl.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .firstRow_image_second{
+        width: 100%;
+        min-height: 497.28px;
+        background-image: url(../img/media-image/mercedes.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .firstRow_image_third{
+        width: 100%;
+        min-height: 180.83px;
+        background-image: url(../img/media-image/elephants.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .firstRow_image_four{
+        width: 100%;
+        min-height: 330.92px;
+        background-image: url(../img/media-image/juke.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .firstRow_image_five{
+        width: 100%;
+        min-height: 180.83px;
+        background-image: url(../img/media-image/street.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .firstRow_image_six{
+        width: 100%;
+        min-height: 330.92px;
+        background-image: url(../img/media-image/design.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .firstRow_image_seven{
+        width: 100%;
+        min-height: 493px;
+        background-image: url(../img/media-image/second_girl.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .secondRow_image_first{
+        width: 100%;
+        min-height: 497.28px;
+        background-image: url(../img/media-image/records.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .secondRow_image_second{
+        width: 100%;
+        min-height: 180.83px; 
+        background-image: url(../img/media-image/merry.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .secondRow_image_third{
+        width: 100%;
+        min-height: 497.28px;
+        background-image: url(../img/media-image/men.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .secondRow_image_four{
+        width: 100%;
+        min-height: 180.83px;
+        background-image: url(../img/media-image/stol.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .secondRow_image_five{
+        width: 100%;
+        min-height: 330.92px;
+        background-image: url(../img/media-image/worth.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .secondRow_image_six{
+        width: 100%;
+        min-height: 180.83px;  
+        background-image: url(../img/media-image/rasta.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .secondRow_image_seven{
+        width: 100%;
+        min-height: 329.63px;
+        background-image: url(../img/media-image/yellow.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+
 @media screen and (max-width: 376px) {
     .top_logo__link{
         display: none;
@@ -118,3 +285,4 @@
         display: none;
     }
 }
+
