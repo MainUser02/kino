@@ -72,9 +72,23 @@ a {
   align-items: flex-start;
 }
 
+.pagination_search {
+  background-color: #000;
+  width: 88px;
+  display: flex;
+  justify-content: space-between;
+}
+
 .pagination_liked {
   background-color: #000;
   width: 126px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pagination_history {
+  background-color: #000;
+  width: 170px;
   display: flex;
   justify-content: space-between;
 }
@@ -89,13 +103,6 @@ a {
   color: #fff;
 }
 
-.pagination_history {
-  background-color: #000;
-  width: 170px;
-  display: flex;
-  justify-content: space-between;
-}
-
 .history_link {
   text-decoration: none;
   font-family: "SFUIDisplay";
@@ -105,6 +112,215 @@ a {
   line-height: 21px;
   color: #fff;
   margin-right: 3px;
+}
+
+.search_link {
+  text-decoration: none;
+  font-family: "SFUIDisplay";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #fff;
+  margin-right: 3px;
+}
+
+.title_liked_block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title_liked {
+  font-family: "SFUIDisplay";
+  font-weight: bold;
+  font-style: normal;
+  font-size: 72px;
+  line-height: 86px;
+  color: #000;
+}
+
+.type_selection__inner {
+  width: 100%;
+  height: 55px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.type_selection_block {
+  width: 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.type_selection_width {
+  width: 23px;
+  height: 23px;
+  background-image: url(../img/typewidth.svg);
+  padding: 0;
+  border: none;
+}
+
+.type_selection_square {
+  width: 23px;
+  height: 23px;
+  background-image: url(../img/typeq.svg);
+  padding: 0;
+  border: none;
+}
+
+.main_gallery_block {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  min-height: auto;
+  margin-top: 50px;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.main_gallery__row {
+  width: 100%;
+  display: flex;
+  min-height: auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.firstRow_image_first {
+  width: 503px;
+  min-height: 270px;
+  margin-bottom: 20px;
+  background-image: url(../img/first_girl.png);
+}
+.firstRow_image_first a {
+  width: 100%;
+  min-height: 270px;
+  display: block;
+}
+
+.firstRow_image_second {
+  width: 476px;
+  min-height: 715px;
+  background-image: url(../img/mercedes.png);
+}
+
+.firstRow_image_third {
+  width: 474px;
+  min-height: 258px;
+  background-image: url(../img/elephantscrop.png);
+}
+
+.firstRow_image_four {
+  width: 503px;
+  min-height: 488px;
+  background-image: url(../img/juke.png);
+}
+
+.firstRow_image_five {
+  width: 503px;
+  min-height: 273px;
+  background-image: url(../img/street.png);
+}
+
+.firstRow_image_six {
+  width: 476px;
+  min-height: 476px;
+  background-image: url(../img/designcrop.png);
+}
+
+.firstRow_image_seven {
+  width: 503px;
+  min-height: 759px;
+  background-image: url(../img/girl.png);
+}
+
+.secondRow_image_first {
+  width: 503px;
+  min-height: 728px;
+  background-image: url(../img/records.png);
+}
+
+.secondRow_image_second {
+  width: 503px;
+  min-height: 273px;
+  background-image: url(../img/merry.png);
+}
+
+.secondRow_image_third {
+  width: 503px;
+  min-height: 726px;
+  background-image: url(../img/men.png);
+}
+
+.secondRow_image_four {
+  width: 503px;
+  min-height: 272px;
+  background-image: url(../img/stol.png);
+}
+
+.secondRow_image_five {
+  width: 503px;
+  min-height: 487px;
+  background-image: url(../img/worth.png);
+}
+
+.secondRow_image_six {
+  width: 503px;
+  min-height: 273px;
+  background-image: url(../img/rasta.png);
+}
+
+.secondRow_image_seven {
+  width: 503px;
+  min-height: 486px;
+  background-image: url(../img/yellow.png);
+}
+
+.thirdRow_image_first {
+  width: 505px;
+  height: 494px;
+  background-image: url(../img/nigga.png);
+}
+
+.thirdRow_image_second {
+  width: 493px;
+  height: 727px;
+  background-image: url(../img/photo.png);
+}
+
+.thirdRow_image_third {
+  width: 494px;
+  height: 272px;
+  background-image: url(../img/fruicts.png);
+}
+
+.thirdRow_image_four {
+  width: 495px;
+  height: 486px;
+  background-image: url(../img/gtr.png);
+}
+
+.thirdRow_image_five {
+  width: 494px;
+  height: 271px;
+  background-image: url(../img/mountain.png);
+}
+
+.thirdRow_image_six {
+  width: 495px;
+  height: 726px;
+  background-image: url(../img/second_mountain.png);
+}
+
+.thirdRow_image_seven {
+  width: 495px;
+  height: 271px;
+  background-image: url(../img/para.png);
 }
 
 /*# sourceMappingURL=photo_page.css.map */
