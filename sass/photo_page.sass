@@ -1,0 +1,118 @@
+// ==========COLOR==============
+
+$colorBlack: #000
+$colorWhite: #fff
+// =============================
+
+// ==========FONT===============
+@font-face
+    font-family: 'SFUIDisplay'
+    src: url('../fonts/SFUIDisplay-Bold.eot')
+    src: local('☺'), url('../fonts/SFUIDisplay-Bold.woff') format('woff'), url('../fonts/SFUIDisplay-Bold.ttf') format('truetype'), url('../fonts/SFUIDisplay-Bold.svg') format('svg')
+    font-weight: bold
+    font-style: normal
+
+@font-face
+    font-family: 'SFUIDisplay'
+    src: url('../fonts/SFUIDisplay-Regular.eot')
+    src: local('☺'), url('../fonts/SFUIDisplay-Regular.woff') format('woff'), url('../fonts/SFUIDisplay-Regular.ttf') format('truetype'), url('../fonts/SFUIDisplay-Regular.svg') format('svg')
+    font-weight: normal
+    font-style: normal
+
+// =============================
+
+// ==========MIXINS=============
+@mixin reset()
+    margin: 0 auto
+    padding: 0
+
+@mixin link()
+    text-decoration: none
+// ============================
+
+body
+    @include reset()
+
+a
+    @include link()
+
+// ==========START HEADER===========
+.top_logo
+    width: 100%
+    height: 81px
+    // background-color: #f83b22
+    background-color: $colorBlack
+    display: flex
+    flex-direction: row
+    align-items: flex-end
+    justify-content: space-between
+
+.top_logo__content
+    // background-color: #01187e
+    background-color: $colorBlack
+    width: 34%
+    min-height: 60px
+    display: flex
+    flex-direction: row
+    align-items: flex-start
+    justify-content: space-between
+
+.top_logo_block
+    width: 26%
+    display: flex
+    justify-content: flex-end
+
+.top_link_block
+    width: 63%
+    display: flex
+
+.top_logo__link
+    font-family: 'SFUIDisplay'
+    font-weight: bold
+    font-style: normal
+    color: $colorWhite
+    font-size: 24px
+    line-height: 29px
+
+.pagination_block
+    width: 21.2%
+    min-height: 54px
+    // background-color: #e100ff
+    background-color: $colorBlack
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    align-items: flex-start
+
+.pagination_liked
+    // background-color: #002fff
+    background-color: $colorBlack
+    width: 126px
+    display: flex
+    justify-content: space-between
+
+.liked_link
+    @include link()
+    font-family: 'SFUIDisplay'
+    font-weight: normal
+    font-style: normal
+    font-size: 18px
+    line-height: 21px
+    color: $colorWhite
+
+.pagination_history
+    // background-color: #0228ff
+    background-color: $colorBlack
+    width: 170px
+    display: flex
+    justify-content: space-between
+
+.history_link
+    @include link()
+    font-family: 'SFUIDisplay'
+    font-weight: normal
+    font-style: normal
+    font-size: 18px
+    line-height: 21px
+    color: $colorWhite
+    margin-right: 3px

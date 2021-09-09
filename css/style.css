@@ -136,9 +136,14 @@ nav {
   height: 19%;
   width: 80%;
   align-items: center;
+}
+.nav_text_block .nav_text_inner {
+  width: 100%;
+  display: flex;
+  align-items: center;
   justify-content: space-between;
 }
-.nav_text_block a {
+.nav_text_block .nav_text_inner a {
   font-family: "SFUIDisplay";
   font-weight: normal;
   font-style: normal;
@@ -146,6 +151,22 @@ nav {
   font-size: 18px;
   line-height: 21px;
   color: #fff;
+}
+
+.nav_text_inner a:nth-child(10) {
+  background: linear-gradient(45deg, #ffffff 33%, #7a7a7a 66%, #7a7a7a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.nav_text_inner a:nth-child(11) {
+  background: linear-gradient(45deg, #7a7a7a 33%, #494949 66%, #3d3d3d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.nav_text_inner a:nth-child(12) {
+  background: linear-gradient(45deg, #3d3d3d 33%, #2e2e2e 66%, #00000063);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .main_search_block {
@@ -257,9 +278,15 @@ nav {
 }
 
 .firstRow_image_first {
-  width: 489px;
+  width: 503px;
   min-height: 270px;
+  margin-bottom: 20px;
   background-image: url(../img/first_girl.png);
+}
+.firstRow_image_first a {
+  width: 100%;
+  min-height: 270px;
+  display: block;
 }
 
 .firstRow_image_second {
@@ -341,44 +368,44 @@ nav {
 }
 
 .thirdRow_image_first {
-  width: 476px;
-  height: 476px;
+  width: 505px;
+  height: 494px;
   background-image: url(../img/nigga.png);
 }
 
 .thirdRow_image_second {
-  width: 476px;
-  height: 715px;
+  width: 493px;
+  height: 727px;
   background-image: url(../img/photo.png);
 }
 
 .thirdRow_image_third {
-  width: 476px;
-  height: 260px;
+  width: 494px;
+  height: 272px;
   background-image: url(../img/fruicts.png);
 }
 
 .thirdRow_image_four {
-  width: 476px;
-  height: 475px;
+  width: 495px;
+  height: 486px;
   background-image: url(../img/gtr.png);
 }
 
 .thirdRow_image_five {
-  width: 476px;
-  height: 260px;
+  width: 494px;
+  height: 271px;
   background-image: url(../img/mountain.png);
 }
 
 .thirdRow_image_six {
-  width: 476px;
-  height: 715px;
+  width: 495px;
+  height: 726px;
   background-image: url(../img/second_mountain.png);
 }
 
 .thirdRow_image_seven {
-  width: 476px;
-  height: 260px;
+  width: 495px;
+  height: 271px;
   background-image: url(../img/para.png);
 }
 

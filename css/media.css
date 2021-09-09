@@ -1,3 +1,15 @@
+@media screen and (max-width: 1850px){
+    .nav_text_inner a:nth-child(5){
+        display: none;
+    }
+    .nav_text_inner a:nth-child(6){
+        display: none;
+    }
+    .nav_text_inner a:nth-child(8){
+        display: none;
+    }
+}
+
 @media screen and (max-width: 1650px) and (min-width: 1601px) {
     .pagination_block{
         width: 25%;
@@ -7,6 +19,12 @@
 @media screen and (max-width: 1600px) {
     .top_logo{
         width: 88%;
+    }
+    .nav_text_inner a:nth-child(2){
+        display: none;
+    }
+    .nav_text_inner a:nth-child(3){
+        display: none;
     }
     .innerBlock{
         justify-content: center;
@@ -48,6 +66,12 @@
 }
 
 @media screen and (max-width: 1024px) {
+    .nav_text_inner a:nth-child(4){
+        display: none;
+    }
+    .nav_text_inner a:nth-child(11){
+        display: none;
+    }
     .liked_link, .history_link, .top_link_block{
         display: none;
     }
@@ -178,6 +202,15 @@
 }
 
 @media screen and (max-width: 600px) {
+    .nav_text_block{
+        width: 88%;
+    }
+    .nav_text_inner a:nth-child(7){
+        display: none;
+    }
+    .nav_text_inner a:nth-child(9){
+        display: none;
+    }
     .type_selection_block{
         width: 18%;
     }
