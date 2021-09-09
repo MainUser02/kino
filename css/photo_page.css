@@ -22,6 +22,21 @@ a {
   text-decoration: none;
 }
 
+.header_body {
+  width: 100%;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.innerBlock {
+  width: 79%;
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+}
+
 .top_logo {
   width: 100%;
   height: 81px;
@@ -63,7 +78,7 @@ a {
 }
 
 .pagination_block {
-  width: 21.2%;
+  width: 35%;
   min-height: 54px;
   background-color: #000;
   display: flex;
@@ -135,7 +150,7 @@ a {
   font-family: "SFUIDisplay";
   font-weight: bold;
   font-style: normal;
-  font-size: 72px;
+  font-size: 60px;
   line-height: 86px;
   color: #000;
 }

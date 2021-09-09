@@ -7,32 +7,37 @@
     <title>Photo Page</title>
     <!-- =========LINK======== -->
     <link rel="stylesheet" href="css/photo_page.css">
+    <link rel="stylesheet" href="css/media.css">
 </head>
 <body>
-    <div class="top_logo">
-        <div class="top_logo__content">
-            <div class="top_logo_block">
-                <img class="top_logo__img" src="icons/logo.svg" alt="top logo">
-            </div>
-            <div class="top_link_block">
-                <a class="top_logo__link" href="#">ImageStock</a>
+    <header class="header_body">
+        <div class="innerBlock">
+            <div class="top_logo">
+                <div class="top_logo__content">
+                    <div class="top_logo_block">
+                        <img class="top_logo__img" src="icons/logo.svg" alt="top logo">
+                    </div>
+                    <div class="top_link_block">
+                        <a class="top_logo__link" href="#">ImageStock</a>
+                    </div>
+                </div>
+                <div class="pagination_block">
+                    <div class="pagination_search">
+                        <img src="icons/search.svg" alt="search">
+                        <a class="search_link" href="#">Поиск</a>
+                    </div>
+                    <div class="pagination_liked">
+                        <img src="icons/heart.svg" alt="liked">
+                        <a class="liked_link" href="#">Избранное</a>
+                    </div>
+                    <div class="pagination_history">
+                        <img src="icons/history_24px.svg" alt="history search">
+                        <a class="history_link" href="#">История поиска</a>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="pagination_block">
-            <div class="pagination_search">
-                <img src="icons/search.svg" alt="search">
-                <a class="search_link" href="#">Поиск</a>
-            </div>
-            <div class="pagination_liked">
-                <img src="icons/heart.svg" alt="liked">
-                <a class="liked_link" href="#">Избранное</a>
-            </div>
-            <div class="pagination_history">
-                <img src="icons/history_24px.svg" alt="history search">
-                <a class="history_link" href="#">История поиска</a>
-            </div>
-        </div>
-    </div>
+    </header>
     <section class="liked_gallery_block">
         <div class="title_liked_block">
             <p class="title_liked">Избранное</p>
